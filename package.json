@@ -1,0 +1,17 @@
+{
+    "name": "app-login-framework7",
+    "version": "0.0.1",
+    "description": "A simple Login System made by a ETEC student with framework7.",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "keywords": [
+        "framework7",
+        "login",
+        "app",
+        "mobile"
+    ],
+    "author": "Victor do Prado",
+    "license": "MIT"
+}

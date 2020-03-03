@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Login</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="framework7/css/framework7.bundle.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+
+                <!-- Top Navbar -->
+                <div class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner">
+                        <div class="title">Login</div>
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <form class="list" id="my-form">
+                        <ul>
+                            <li>
+                                <div class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Username:</div>
+                                        <div class="item-input-wrap">
+                                            <input type="text" id="username" placeholder="Username:">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Password:</div>
+                                        <div class="item-input-wrap">
+                                            <input type="password" id="password" placeholder="********">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                        </ul>
+                    </form>
+                    <div class="block block-strong row">
+                        <div class="col">
+                            <a class="button convert-form-to-data" id="btn-login" href="#">Login</a>
+                        </div>
+                    </div>
+                    <div class="block block-strong row">
+                        <div class="col">
+                            <h2 class="login-result"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="framework7/js/framework7.bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+</body>
+
+</html>
